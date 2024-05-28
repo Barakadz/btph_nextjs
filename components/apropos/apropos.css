@@ -1,0 +1,12 @@
+.p-apropos{
+    text-align: justify;
+margin-top: 11%;}
+
+
+@media only screen and (max-width: 600px) {
+
+    .p-apropos{
+        text-align: justify;
+    margin-top: 0%;}
+    
+}
