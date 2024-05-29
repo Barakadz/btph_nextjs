@@ -2,8 +2,11 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import '../components/navbar/navbar.css';
 import "@/styles/globals.css";
 import '../components/apropos/apropos.css';
+import '../components/chifrescles/chifrescle.css';
+import '../components/service/service.css';
 
- 
+import '../components/actualites/actualites.css';
+
 import { useEffect } from "react";
 
 

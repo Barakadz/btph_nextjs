@@ -1,0 +1,15 @@
+.imgact{
+  max-width:380px; 
+max-height: 300px;
+}
+.img-full{
+    width: 100%;
+    overflow: hidden;
+    object-fit: cover;
+    object-position: center center;
+}
+.blog-img{
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+}

@@ -2,7 +2,10 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/swiper-bundle.css';
 import {Autoplay, Navigation } from 'swiper/modules';
 import React, { useRef } from 'react';
-   
+import { IoIosArrowBack } from "react-icons/io";
+  
+
+
 const Projet =()=>{
     const swiperRef = useRef(null);
 
@@ -35,7 +38,7 @@ const Projet =()=>{
  
                                 <div class="project-button-wrap">
                                     <div class="project-button-prev"onClick={slidePrev}>
-                                        <i class="ion-chevron-left"></i>
+                                    <IoIosArrowBack />
                                     </div>
                                     <div class="project-button-next"onClick={slideNext}>
                                         <i class="ion-chevron-right"></i>

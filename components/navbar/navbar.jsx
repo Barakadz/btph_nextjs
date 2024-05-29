@@ -22,7 +22,7 @@ const NavBar = () => {
 	}, []);
     return (
         <div>
-            		<nav className={`navbar navbar-expand-lg bg-white navbar-light p-0 wow fadeIn ${isSticky ? 'fixed-top' : ''}`} style={{zIndex:'111'}}>
+            		<nav className={`navbar navbar-expand-lg bg-white navbar-light p-0 wow fadeIn ${isSticky ? 'fixed-top' : ''}`} >
 
                  <a href="index.html" className="navbar-brand d-flex align-items-center px-4 px-lg-5">
                     <img src="logo.jpg" alt="BTPH HASNAOUI" width="42" height="auto" className="d-inline-block align-top" />

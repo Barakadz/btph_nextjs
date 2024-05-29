@@ -39,12 +39,12 @@ spaceBetween:30
                             <SwiperSlide>
                                 <div className="blog-item">
                                     <a className="blog-img" href="blog.html">
-                                        <img className="img-thumbnail" src="1-1-405x474.jpg" alt="Blog Image" />
+                                        <img className="img-full" src="actualites1.jpg" alt="Blog Image" />
                                     </a>
                                     <div className="blog-content">
-                                        <span className="blog-meta">12/10/2023 -- Evenement</span>
-                                        <h3 className="title mb-2"><a href="blog.html">Projet urbain à la production architecturale</a></h3>
-                                        <p className="mb-4">Retour en image sur la 2ÈME journée d’étude organisée par l’association ...</p>
+                                        <span className="blog-meta">12/10/2023 -- Evénement</span>
+                                        <h3 className="title mb-2"><a href="blog.html">Retour en images sur le dernier jour de notre participation à l’événement BATIMATEC 2024</a></h3>
+                                        <p className="mb-4">Retour en image sur le dernier jour de notre participation à l’événement BATIMATEC 2024 ...</p>
                                         <ul className="blog-button-wrap">
                                             <li>
                                                 <a className="btn btn-link p-0" href="blog.html">Lire la suite</a>
@@ -60,12 +60,12 @@ spaceBetween:30
                             <SwiperSlide>
                                 <div className="blog-item">
                                     <a className="blog-img" href="blog.html">
-                                        <img className="img-thumbnail" src="1-1-405x474.jpg" alt="Blog Image" />
+                                        <img className="img-full" src="actualites2.jpg" alt="Blog Image" />
                                     </a>
                                     <div className="blog-content">
-                                        <span className="blog-meta">12/10/2023 -- Evenement</span>
-                                        <h3 className="title mb-2"><a href="blog.html">Projet urbain à la production architecturale</a></h3>
-                                        <p className="mb-4">Retour en image sur la 2ÈME journée d’étude organisée par l’association ...</p>
+                                        <span className="blog-meta">12/10/2023 -- Evénement</span>
+                                        <h3 className="title mb-2"><a href="blog.html">Inauguration officielle de BATIMATEC 2024 par Monsieur le Ministre de l'Habitat, Mohamed Tarek BELARIBI</a></h3>
+                                        <p className="mb-4">Monsieur le Ministre de l'Habitat, de l'Urbanisme et de la Ville, Mohamed Tarek BELARIB ...</p>
                                         <ul className="blog-button-wrap">
                                             <li>
                                                 <a className="btn btn-link p-0" href="blog.html">Lire la suite</a>
@@ -81,12 +81,12 @@ spaceBetween:30
                             <SwiperSlide>
                                 <div className="blog-item">
                                     <a className="blog-img" href="blog.html">
-                                        <img className="img-thumbnail" src="1-1-405x474.jpg" alt="Blog Image" />
+                                        <img className="img-full" src="actualites3.jpg" alt="Blog Image" />
                                     </a>
                                     <div className="blog-content">
-                                        <span className="blog-meta">12/10/2023 -- Evenement</span>
-                                        <h3 className="title mb-2"><a href="blog.html">Projet urbain à la production architecturale</a></h3>
-                                        <p className="mb-4">Retour en image sur la 2ÈME journée d’étude organisée par l’association ...</p>
+                                        <span className="blog-meta">12/10/2023 -- Evénement</span>
+                                        <h3 className="title mb-2"><a href="blog.html">Retour en images sur la 2ème journée d’étude de l’association nationale des architectes</a></h3>
+                                        <p className="mb-4">La 2ème journée d’étude organisée par l’association nationale des architectes ...</p>
                                         <ul className="blog-button-wrap">
                                             <li>
                                                 <a className="btn btn-link p-0" href="blog.html">Lire la suite</a>
