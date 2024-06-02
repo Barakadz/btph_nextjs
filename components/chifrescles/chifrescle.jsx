@@ -32,7 +32,7 @@ const ChifreCle = () => {
                         </div>
                     </div>
                      <div className="col-lg-6 col-sm-6">
-                        <h2 className="text-center">Le projet sur le térroire nationale</h2>
+                        <h2 className="text-center">Les projets réaliser sur le territoire national</h2>
 
 
 

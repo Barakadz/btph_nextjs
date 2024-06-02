@@ -3,7 +3,10 @@ import 'swiper/swiper-bundle.css';
 import {Autoplay, Navigation } from 'swiper/modules';
 import React, { useRef } from 'react';
 import { IoIosArrowBack } from "react-icons/io";
-  
+import { FaArrowRightLong } from "react-icons/fa6";
+import { FaQuoteLeft } from "react-icons/fa";
+import { FaQuoteRight } from "react-icons/fa";
+
 
 
 const Projet =()=>{
@@ -26,10 +29,13 @@ const Projet =()=>{
 <div class="project-area ">   
             <div class="project-inner"  >
                 <div class="button-wrap text-end">
-                    <a class="btn btn-project" href="project.html"><span>Voir plus</span></a>
+                    <a class="btn btn-project" href="project.html"><span>Voir plus <FaArrowRightLong />
+</span></a>
                 </div>             
                    
-                <h2   class="text-center   text-white text-uppercase mb-4 mt-2" style={{position:'relative'}} ><i class="fas fa-quote-left" id="iconleft" style={{position:'absolute',top:'0',fontSize:'1.5rem'}} ></i> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span  >50 ans de réalisations</span>&nbsp;&nbsp;&nbsp;      <i class="fas fa-quote-right" style={{position:'absolute',top:'0',fontSize:'1.5rem'}}></i></h2>                          
+                <h2   class="text-center   text-white text-uppercase mb-4 mt-2" style={{position:'relative'}} ><FaQuoteLeft id="iconleft" style={{position:'absolute',top:'0',fontSize:'1.5rem'}}/>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span  >50 ans de réalisations</span>&nbsp;&nbsp;&nbsp; <FaQuoteRight style={{position:'absolute',top:'0',fontSize:'1.5rem'}}/>
+ </h2>                          
                 
                 <div class="container-fluid p-0">
                     <div class="project-with-title">
@@ -38,11 +44,9 @@ const Projet =()=>{
  
                                 <div class="project-button-wrap">
                                     <div class="project-button-prev"onClick={slidePrev}>
-                                    <IoIosArrowBack />
-                                    </div>
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M9.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l192 192c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L77.3 256 246.6 86.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-192 192z"/></svg>                                    </div>
                                     <div class="project-button-next"onClick={slideNext}>
-                                        <i class="ion-chevron-right"></i>
-                                    </div>
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M310.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-192 192c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L242.7 256 73.4 86.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l192 192z"/></svg>                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -75,7 +79,7 @@ const Projet =()=>{
 
       <SwiperSlide><div class="project-item">
       <a class="project-img" href="project.html">
-                                            <img src="IMG_6899.jpg"height="360"  alt="Project Image"/>
+                                            <img src="IMG_6899.jpg"height="auto"  alt="Project Image"/>
                                         </a>
                                         <div class="project-content">
                                             <span class="sub-title">CONSTRUCTION</span>
@@ -85,7 +89,7 @@ const Projet =()=>{
                                     </div></SwiperSlide>
       <SwiperSlide>   <div class="project-item">
                                         <a class="project-img" href="project.html">
-                                            <img src="IMG_3759.jpg" height="360" alt="Project Image"/>
+                                            <img src="IMG_3759.jpg" height="auto" alt="Project Image"/>
                                         </a>
                                         <div class="project-content">
                                             <span class="sub-title">CONSTRUCTION</span>
@@ -95,7 +99,7 @@ const Projet =()=>{
                                     </div></SwiperSlide>
       <SwiperSlide> <div class="project-item">
                                         <a class="project-img" href="project.html">
-                                            <img src="2024-02-19.jpg" height="360" alt="Project Image"/>
+                                            <img src="2024-02-19.jpg" height="auto" alt="Project Image"/>
                                         </a>
                                         <div class="project-content">
                                             <span class="sub-title">CONSTRUCTION</span>
@@ -105,7 +109,7 @@ const Projet =()=>{
                                     </div></SwiperSlide>
       <SwiperSlide> <div class="project-item">
                                         <a class="project-img" href="project.html">
-                                            <img src="Hcanc.jpg" height="360" alt="Project Image"/>
+                                            <img src="Hcanc.jpg" height="auto" alt="Project Image"/>
                                         </a>
                                         <div class="project-content">
                                             <span class="sub-title">CONSTRUCTION</span>
@@ -115,7 +119,7 @@ const Projet =()=>{
                                     </div></SwiperSlide>
       <SwiperSlide> <div class="project-item">
                                         <a class="project-img" href="project.html">
-                                            <img src="hero-.jpg" height="360" alt="Project Image"/>
+                                            <img src="hero-.jpg" height="auto" alt="Project Image"/>
                                         </a>
                                         <div class="project-content">
                                             <span class="sub-title">CONSTRUCTION</span>
@@ -125,7 +129,7 @@ const Projet =()=>{
                                     </div></SwiperSlide>
                                     <SwiperSlide>  <div class="project-item">
                                         <a class="project-img" href="project.html">
-                                            <img src="AlRiadh20.jpg" alt="Project Image" height="360"/>
+                                            <img src="AlRiadh20.jpg" alt="Project Image" height="auto"/>
                                         </a>
                                         <div class="project-content">
                                             <span class="sub-title">ARCHITECTURE</span>

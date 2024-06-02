@@ -34,7 +34,7 @@ const NavBar = () => {
                     <div className="navbar-nav ms-auto p-4 p-lg-0">
                         <li className="nav-item"><Link legacyBehavior href="/"><a className={router.pathname === '/' ? 'nav-link active' : 'nav-link'} aria-current="page">Accueil</a></Link></li>
                         <li className="nav-item"><Link legacyBehavior href="/apropos"><a className={router.pathname === '/apropos' ? 'nav-link active' : 'nav-link'} aria-current="page">A propos</a></Link></li>
-                        <li className="nav-item"><Link legacyBehavior href="/service"><a className={router.pathname === '/service' ? 'nav-link active' : 'nav-link'} aria-current="page">Services et Produits</a></Link></li>
+                        <li className="nav-item"><Link legacyBehavior href="/produit"><a className={router.pathname === '/produit' ? 'nav-link active' : 'nav-link'} aria-current="page"> Produits</a></Link></li>
                         <div className="nav-item dropdown">
                             <li className="nav-item"><Link legacyBehavior href="#"><a className={router.pathname === '/project_cour' || router.pathname === '/project_rel' ? 'nav-link dropdown-toggle active' : 'nav-link dropdown-toggle'} data-bs-toggle="dropdown" aria-current="page">Réalisations</a></Link></li>
                             <div className="dropdown-menu rounded-0 m-0">

@@ -4,6 +4,7 @@ import "@/styles/globals.css";
 import '../components/apropos/apropos.css';
 import '../components/chifrescles/chifrescle.css';
 import '../components/service/service.css';
+import '../components/produit_detail/produit.css';
 
 import '../components/actualites/actualites.css';
 

@@ -5,13 +5,13 @@ import {Autoplay, Navigation ,Pagination,EffectCoverflow} from 'swiper/modules';
 const Apropos=()=>{
     return(
         <>
-        
+        <br/>
    <div className="container">
     <div className="row">
-        <div className="col-sm-6">
+        <div className="col-lg-6">
          <p className="p-4 p-apropos" >Issue de la société mère, la société par actions BTPH HASNAOUI est spécialisée et hautement qualifiée dans la réalisation du bâtiment et du génie civil, (Elle déploie une capacité de réalisation de 1.500 logements par an). Tout en consolidant son corps de métier qu’est la promotion immobilière la BTPH HASNAOUI est chargée de la réalisation des différents programmes de constructions civiles et industrielles. Elle dispose de structures techniques et de groupes spécialisés.</p>
         </div>
-        <div className="col-sm-6">
+        <div className="col-lg-6">
           <Swiper effect={'coverflow'} 
           grabCursor={true} 
           centeredSlides={true}
@@ -35,17 +35,24 @@ const Apropos=()=>{
           className="swiper_containerr"
            
           >
-            <SwiperSlide className="swiper-slidee">
-            <img src="hitel.jpeg" alt="" srcset="" />
+            <SwiperSlide className="swiper-slidee position-relative overlay">
+            <img src="hitel.jpeg" alt="" srcset=""  />
+            <p className='text-white'  style={{position:'absolute',bottom:'3%',left:'40%'}}>BTPH HASNAOUI</p>
             </SwiperSlide>
-            <SwiperSlide  className="swiper-slidee">
+            <SwiperSlide className="swiper-slidee position-relative overlay">
             <img src="obra (1).jpeg" alt="" srcset="" />
+            <p className='text-white'  style={{position:'absolute',bottom:'3%',left:'50%'}}>HOTEL </p>
+
             </SwiperSlide>
-            <SwiperSlide  className="swiper-slidee">
+            <SwiperSlide className="swiper-slidee position-relative overlay">
             <img src="bechar.jpeg" alt="" srcset="" />
+            <p className='text-white'  style={{position:'absolute',bottom:'3%',left:'50%'}}>jjj</p>
+
             </SwiperSlide>
-            <SwiperSlide className="swiper-slidee" >
+            <SwiperSlide className="swiper-slidee position-relative overlay">
             <img src="elmedina2.jpeg" alt="" srcset="" />
+            <p className='text-white'  style={{position:'absolute',bottom:'3%',left:'50%'}}>jjj</p>
+
             </SwiperSlide>
             <div className="slider-controler">
               <div className="swiper-button-prev slider-arrow">
@@ -58,7 +65,23 @@ const Apropos=()=>{
               <div className="swiper-pagination"></div>
             </div>
             </Swiper>
-       </div>
+
+
+
+           
+       </div> <div class="container">
+    <div class="video-container">
+      <video
+        autoPlay
+        loop
+        muted
+        playsInline
+      >
+        <source src="BTPH_video_Trim.mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
+    </div>
+  </div>
        </div>
 </div>
         </>

@@ -14,7 +14,7 @@ import {Autoplay, Navigation, Pagination } from 'swiper/modules';
         navigation
         pagination={{ clickable: true }}
         modules= {[Navigation, Pagination,Autoplay]}
-        autoplay={{ delay: 6000 }} 
+        autoplay={{ delay: 7000 }} 
       >
         <SwiperSlide className="swiper-slide animation-style-01">
   <div className="slide-inner bg-height" style={{ width: '100%', height: '300px' }}>
@@ -33,7 +33,7 @@ import {Autoplay, Navigation, Pagination } from 'swiper/modules';
         zIndex: -1, // Ensures the video stays behind other content
       }}
     >
-      <source src="BTPH_Trim.mp4" type="video/mp4" />
+      <source src="BTPH_video.mp4" type="video/mp4" />
       Your browser does not support the video tag.
     </video>
     

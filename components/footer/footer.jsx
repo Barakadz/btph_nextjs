@@ -1,5 +1,13 @@
 import React from "react";
+import { FiMapPin } from "react-icons/fi";
+import { BsTelephone } from "react-icons/bs";
+import { FiMail } from "react-icons/fi";
 
+import { FaFacebookF } from "react-icons/fa";
+import { FaXTwitter } from "react-icons/fa6";
+import { FaInstagram } from "react-icons/fa";
+import { FaYoutube } from "react-icons/fa";
+import { FaLinkedinIn } from "react-icons/fa";
 
 import { Tooltip } from 'react-tippy';
 import 'react-tippy/dist/tippy.css';
@@ -77,12 +85,15 @@ import 'react-tippy/dist/tippy.css';
                                 <h3 class="heading text-primary mb-6">Contact  </h3>
                                 <div class="widget-list-item text-hawkes-blue">
                                     <div class="widget-address  ">
-                                       <p class="mb-1"><i class="fas fa-map-marker-alt"></i>&nbsp;&nbsp;Section 214, ilot 30, Zone industrielle, <span class="text-primary">Sidi Bel Abbès, Algeria</span></p>
+                                       <p class="mb-1"><FiMapPin size={20}/>
+&nbsp;&nbsp;Section 214, ilot 30, Zone industrielle, <span class="text-primary">Sidi Bel Abbès, Algeria</span></p>
                                         
-                                        <span><i class="fas fa-phone"></i>&nbsp;&nbsp;+213 (048) 70 66 03/ (048) 70 66 04</span>
+                                        <span><BsTelephone size={20} />
+&nbsp;&nbsp;+213 (048) 70 66 03/ (048) 70 66 04</span>
                                     </div>
                                     <div class="widget-address">
-                                        <p class="mb-1"><i class="fa fa-envelope-open me-2"></i>info@btph-hasnaoui.com
+                                        <p class="mb-1"><FiMail size={20}/>&nbsp;&nbsp;
+info@btph-hasnaoui.com
                                          </p>
                                      </div>
                                 </div>
@@ -92,7 +103,7 @@ import 'react-tippy/dist/tippy.css';
                 </div>
             </div>
             <div class="footer-bottom py-3 text-hawkes-blue" style={{backgroundColor:'#00225a'}}>
-                <div class="container">
+                <div class="container-fluid">
                     <div class="row">
                         <div class="col-md-6 col-sm-4">
                             <ul class="social-link">
@@ -105,7 +116,7 @@ import 'react-tippy/dist/tippy.css';
       animation="fade"
     >
                                     <a href="https://www.facebook.com/btph.hasnaoui/" target="_blank" >
-                                        <i class="fa fa-facebook"></i>
+                                 <div className="p-1"> <FaFacebookF size={20} /></div>  
                                     </a>
                                     </Tooltip>
                                 </li>
@@ -118,7 +129,7 @@ import 'react-tippy/dist/tippy.css';
       animation="fade"
     >
                                     <a href="#"target="_blank">
-                                        <i class="fa fa-twitter"></i>
+                                    <div className="p-1">  <FaXTwitter size={20}/></div>
                                     </a>
         </Tooltip>                         </li>
    
@@ -132,8 +143,9 @@ import 'react-tippy/dist/tippy.css';
       animation="fade"
     >
                                     <a href="#"target="_blank" >
-                                        <i class="fa fa-instagram"></i>
-                                    </a>
+
+<div className="p-1"><FaInstagram size={20}/>
+</div>                                    </a>
                                     </Tooltip>
                                 </li>
                                 <li class="youtube">
@@ -145,7 +157,8 @@ import 'react-tippy/dist/tippy.css';
       animation="fade"
     >
                                     <a href="https://www.youtube.com/watch?v=rqf1miNw07Y"target="_blank" >
-                                        <i class="fa fa-youtube"></i>
+<div className="p-1"><FaYoutube size={20}/>
+</div>
                                     </a>
                                     </Tooltip>
                                 </li>
@@ -158,7 +171,7 @@ import 'react-tippy/dist/tippy.css';
       animation="fade"
     >
                                     <a href="https://www.linkedin.com/company/btph-hasnaoui-spa"target="_blank" >
-                                        <i class="fa fa-linkedin"></i>
+                                   <div className="p-1"><FaLinkedinIn size={20} /></div> 
                                     </a>
                                     </Tooltip>
                                 </li>

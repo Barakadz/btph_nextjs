@@ -2,6 +2,14 @@ import React from "react";
 
 import { Tooltip } from 'react-tippy';
 import 'react-tippy/dist/tippy.css';
+import { IoLocationOutline } from "react-icons/io5";
+import { MdAccessTime } from "react-icons/md";
+import { BsTelephone } from "react-icons/bs";
+import { FaFacebookF } from "react-icons/fa";
+import { RiTwitterXFill } from "react-icons/ri";
+import { BsLinkedin } from "react-icons/bs";
+import { FaInstagram } from "react-icons/fa";
+
 const Topbar=()=> {
   return (
     
@@ -16,24 +24,27 @@ const Topbar=()=> {
       arrow={true}
       animation="fade"
     >
-                    <small className="fa fa-map-marker-alt text-primary me-2"></small>
-                    <a href="https://maps.app.goo.gl/4SpVmhFEUJYEjJCY9" target="_blank"><small>Localisation</small></a> 
+      <IoLocationOutline className="text-primary me-2" size={20}/>
+
+                     <a href="https://maps.app.goo.gl/4SpVmhFEUJYEjJCY9" target="_blank"><small>Localisation</small></a> 
               </Tooltip>
-                </div>
+                </div> <div className="h-100 d-inline-flex align-items-center py-3 text-secondary">
                 <Tooltip
       title="B.P. 11 M. Zone Industrielle Sidi-Bel-Abbes"
       position="top"
       trigger="mouseenter"
       arrow={true}
       animation="fade"
-    >     <div className="h-100 d-inline-flex align-items-center py-3 text-secondary">
-                    <small className="far fa-clock text-primary me-2"></small>
+    >    
+                     <MdAccessTime className="text-primary me-2" color="green" size={20}/>
+
                     <small>Samedi - Jeudi : 08.00 - 17.00 </small>
-                </div></Tooltip>
+               </Tooltip> </div>
             </div>
             <div className="col-lg-5 px-5 text-end">
                 <div className="h-100 d-inline-flex align-items-center py-3 me-4">
-                    <small className="fa fa-phone  text-primary me-2"></small>
+                     <BsTelephone  className="text-primary me-2"/>
+
                    <a href="tel:048706603"><small>+213 (048) 70 66 03</small></a> 
                 </div>
                 <div className="h-100 d-inline-flex align-items-center">
@@ -43,28 +54,32 @@ const Topbar=()=> {
       trigger="mouseenter"
       arrow={true}
       animation="fade"
-    >    <a className="btn btn-sm-square rounded-circle bg-white text-primary me-1" href=""><i className="fab fa-facebook-f"></i></a></Tooltip>
+    >    <a className="btn btn-sm-square rounded-circle bg-white text-primary me-1" href=""><FaFacebookF />
+    </a></Tooltip>
                     <Tooltip
       title="Tewitter"
       position="top"
       trigger="mouseenter"
       arrow={true}
       animation="fade"
-    >   <a className="btn btn-sm-square rounded-circle bg-white text-primary me-1" href=""><i className="fab fa-twitter"></i></a></Tooltip>
+    >   <a className="btn btn-sm-square rounded-circle bg-white text-primary me-1" href=""><RiTwitterXFill />
+    </a></Tooltip>
                    <Tooltip
       title="LinkedIn"
       position="top"
       trigger="mouseenter"
       arrow={true}
       animation="fade"
-    >    <a className="btn btn-sm-square rounded-circle bg-white text-primary me-1" href=""><i className="fab fa-linkedin-in"></i></a></Tooltip>
+    >    <a className="btn btn-sm-square rounded-circle bg-white text-primary me-1" href=""><BsLinkedin />
+    </a></Tooltip>
                      <Tooltip
       title="Instegram"
       position="top"
       trigger="mouseenter"
       arrow={true}
       animation="fade"
-    >  <a className="btn btn-sm-square rounded-circle bg-white text-primary me-0" href=""><i className="fab fa-instagram"></i></a></Tooltip>
+    >  <a className="btn btn-sm-square rounded-circle bg-white text-primary me-0" href=""><FaInstagram />
+    </a></Tooltip>
                 </div>
             </div>
         </div>
