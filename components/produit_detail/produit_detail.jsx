@@ -82,16 +82,115 @@ const Products = [
         avantages:"Convient pour la réalisation de murs standards porteurs et non porteurs en brigues.Magonnerie en brique et en parpaings, notamment & température élevée (par exemple pendant les mois d'été).Mortier prét a l'emploi.Ouvrabilité et homogénéité d'un maintien de 24 heures.Mise en ceuvre tres facile.Rendement élevé.",
         mise:"Le Mortier a maconné retardé reste e pateux et applicable pendant 24 heures environ a +20 C ou pendant 12 heure environ de +25 a +35 °C dans le bac a gacher. ll faut choisir les quantités de mortier a gacher de maniére a pouvoir utiliser le produit pendant ce délai. Il faut éviter un apport d'eau ultérieur.",
         image:"images.jfif",
+        domaine:"",
         },{
         id:10,
         title:"Béton désactivé",
         desc:"Le béton désactivé ou béton lave est un béton a l'aspect gravillonné qui laisse apparaitre les graviers de couleurs 4 la surface.D'un point de vue esthétique, il peut étre utilisé pour un mariage insolite de surfaces et des effets de matiére. Du fait de sa surface, il est antidérapant. ll est robuste et également trés résistant aux chocs thermiques.",
         image:"beton-desactive.jpg",
+        domaine:"",
+        mise:"",
+        avantages:`Ce type de revétement est plus esthétique qu'une simple dalle de béton classique. Les diverses
+        possibilités dans le choix des granulats et des couleurs de fonds ouvrent de nouvelles perspec-
+        tives en matiére de décoration.
+        - le béton désactivé est tres facile d'entretien
+     - Résistance a lusure
+     - Résistance aux chocs thermiques
+       - Uniformité de surface
+      - Rapidité de mise en fonction
+        - Facilité d’adaptation aux formes diverses
+       - Durabilité de Faménagement sur plusieurs décennies 
+        - Entretien simplifié apres pulvérisation des résines de finition`,
+        mise:`Le béton a désactiver sera mis en place par vibration moyenne a courte durée ou par talochage. 
+ Employer des fibres synthétiques pour améliorer la cohésion du béton a désactiver et d'en faciliter la mise en place. 
+ Attendre la disparition de l'eau de ressuage puis homogénéiser le produit de facon uniforme grace a un systeme de pulvérisation. 
+ Aprés 5 a 25 heures selon les conditions climatiques, on lave le béton avec de l'eau sous pression.`
         },{
         id:11,
-        title:"",
-        desc:"",
-        image:"",
+        title:"Béton léger",
+        desc:"Les bétons légers permettent de réaliser un gain de poids pour I'ouvrage auquel ils sont destinés. lls sont également utilisés pour Isolation thermique, la conductivité variant dans le meme sens que la densité.",
+        avantages:`Légereté : plus léger qu'un béton classique, le béton léger a une densité de 0,4 a 1,2 en compa-
+        raison de 2,2 4 2,5 pour un béton classique.
+        Isolant : Le béton Iéger a un pouvoir isolant thermique et phonique beaucoup plus importantqu'un béton classique
+        Non inflammable Exécution simple et rapide : accessibilité sur chantier entre 24 et 48 h apres coulage, selon
+        Pépaisseur.  
+        Maniabilité : pompable sur de longues distances et de grandes hauteurs`,
+        domaine:`La chape en béton léger est utilisable dans tous les domaines oti 'on recherche un produit légeret facile a mettre en ceuvre Rénovation planché bois,
+Support de plancher chauffant,
+Compensation de plancher,
+Ouvrages d'art : allégement de route, isolation de canalisations, remblais
+Toitures de terrasses.`,
+        information:"",
+        image:"leger.jfif",
+        mise:"",
+    },{
+        id:12,
+        title:"Béton drainant",
+        desc:`Le béton drainant est un type de béton qui a été spécialement congu pour permettre a l'eau de
+        siinfiltrer a travers sa surface. Ce type de béton est souvent utilisé pour les surfaces extérieures,
+        telles que les parkings, les trottoirs, les cours et les allées, car il permet a l'eau de s'infiltrer dans
+        le sol plutét que de s'accumuler en surface et de provoquer des problémes d'inondation. Le
+        béton drainant est fabriqué en utilisant des agrégats spéciaux et des adjuvants qui permettent a
+        I'eau de circuler librement a travers le béton. Il offre également une meilleure résistance au glis-
+        sement et a l'usure, ainsi qu'une durabilité accrue par rapport aux surfaces traditionnelles. Le
+        béton drainant est une solution efficace pour lutter contre les problémes de ruissellement d'eau,
+        tout en offrant une surface solide et esthétiquement attrayante pour les projets de construction`,
+        avantages:`Pas de flaque d'eau
+        Antidérapant
+        Pas de retrait
+        Facile d'entretien
+        Différenciation des zones de circulation avec teinte dans la masse.
+        Elévation du niveau d'adhérence.
+        Insensibilité aux variations climatiques.
+        Grande rigidité de la structure béton pour une absence de déformation et d'orniérage`,
+        domaine:`Pourtour d’arbre
+        Sol sporti
+        Cours d'école
+        Terrasse
+        Plage de piscine
+        Aliée piétonne
+        Piste cyclable
+        Parking extérieur`,
+        information:"",
+        image:"leger.jfif",
+        mise:"La BTPH HASNAOUI propose des stages de formation a la fabrication et a la pose du béton drainant",
+
+    }
+    ,{
+        id:13,
+        title:"Béton projeté",
+        desc:`Les bétons projetés sont mis en ceuvre par projection sur une paroi a l'aide d'une lance sous I'mpulsion d'un jet d'air comprimé. `,
+        avantages:`L’adaptation au sol support est optimale.
+        Limitation des pertes par rebond,
+Rapidité de mise en ceuvre.
+Adaptation parfaite a la géomeétrie du support. `,
+        domaine:`Ouvrages d'art souterrains : tunnels, galeries, puis...
+        Stabilisation des parois : roches, talus, berges.
+    Colmatage : venues d'eau
+Réhabilitation d'ouvrage. `,
+        information:"",
+        image:" ",
+        mise:"La mise en ceuvre du béton projeté suit la norme NA 5285 et elle faite par des équipes spécialisées. ",
+        
+    },{
+        id:14,
+        title:"Béton hydrofuge",
+        desc:`Les bétons projetés sont mis en ceuvre par projection sur une paroi a l'aide d'une lance sous I'mpulsion d'un jet d'air comprimé. `,
+        avantages:`Ameéliorer Iimpermeabilite.
+Il diminue le risque de fissure
+    Il adhere sur tous les supports, secs ou humides.
+        Il a une bonne résistance, aussi bien chimique que mécanique
+        Résistance aux agressions chimiques
+ Amélioration de la durabilité`,
+        domaine:`«Piscines, bache a eau
+ Fondations, radiers, réservoirs.
+ Station d"épuration.
+ Travaux d'assainissement `,
+        information:"",
+        image:"bee.jpg",
+        mise:"Le béton hydrofuge est mis en ceuvre a la pompe, a la benne ",
+        information:""
+        
     }
 ];
 
@@ -200,8 +299,11 @@ const Produit_detail = () => {
                                             <div className="tab-pane fade" id="review" role="tabpanel" aria-labelledby="review-tab">
                                                 <div className="review-body">
                                                     <div className="blog-feedback-area">
-                                                    <p className="shopping-desc mb-5"style={{textAlign:'justify'}}>{product.mise}</p>
-
+                                                    <p
+  className="short-desc mb-5"
+  style={{ textAlign: 'justify' }}
+  dangerouslySetInnerHTML={{ __html: product.mise.replace(/\n/g, '<br>').replace(/(\*\*|__)(.*?)\1/g, '<b>$2</b>') }}
+></p>   
                                                     </div>
                                                 </div>
                                             </div>
