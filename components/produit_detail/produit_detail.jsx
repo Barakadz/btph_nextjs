@@ -21,6 +21,7 @@ const Products = [
         image:"betonpret.jpg",
         avantages:"",
         domaine:"",
+        mise:""
         },{
         id:3,
         title:"Béton a haute résistance",
