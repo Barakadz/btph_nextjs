@@ -7,6 +7,9 @@ import '../components/service/service.css';
 import '../components/produit_detail/produit.css';
 
 import '../components/actualites/actualites.css';
+import '../components/project/project.css';
+import '../components/project_rel/project_rel.css';
+import '../components/projectdetail/projectdetail.css';
 
 import { useEffect } from "react";
 

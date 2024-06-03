@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { useRouter } from 'next/router';
 import Link from "next/link";
-
+ 
 const NavBar = () => {
     const router = useRouter();
     const [isSticky, setIsSticky] = useState(false);
@@ -44,7 +44,7 @@ const NavBar = () => {
                         </div>
                         <div className="nav-item"><Link legacyBehavior href="/actualite"><a className={router.pathname === '/actualite' ? 'nav-link active' : 'nav-link'} aria-current="page">Actualités</a></Link></div>
                         <div className="nav-item dropdown">
-                            <a href="#" className="nav-link dropdown-toggle" data-bs-toggle="dropdown" data-i18n="Services">Carrières</a>
+                            <a href="#" className="nav-link dropdown-toggle" data-bs-toggle="dropdown" data-i18n="Services">Carrières </a>
                             <div className="dropdown-menu rounded-0 m-0">
                                 <a className="dropdown-item" href="/emplois">Offres d'emploi</a>
                                 <a className="dropdown-item" href="/candidature">Candidature spontanée</a>

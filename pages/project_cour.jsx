@@ -8,16 +8,17 @@ import NavBar from "@/components/navbar/navbar";
 import Footer from "@/components/footer/footer";
 import Contactinformation from "@/components/contactinformation/contactinformation";
 import Breadcumb from "@/components/breadcrumb/breadcumb";
+import Projectt from "@/components/project/project";
   
 const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
-  const contact="Nous contacter";
+  const contact="Projet";
   const image="url('contact.jpg')";
   return (
     <>
       <Head>
-      <title>Contact - Batiment, Travaux Publics et Hydrauliques</title>
+      <title>Projet - Batiment, Travaux Publics et Hydrauliques</title>
 
       <link rel="icon" href="/logoicon.png" />
 
@@ -31,9 +32,8 @@ export default function Home() {
       <Topbar/>
       <NavBar/>
       <Breadcumb name={contact} image={image}/>
-    
-    <Contactinformation/>
-      <Footer/>
+    <Projectt/>
+       <Footer/>
     </>
   );
 }
