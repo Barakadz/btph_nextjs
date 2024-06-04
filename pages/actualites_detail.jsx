@@ -1,19 +1,17 @@
 import Head from "next/head";
-import Image from "next/image";
-import { Inter } from "next/font/google";
-import styles from "@/styles/Home.module.css";
- import Topbar from "@/components/topbar/topbar";
+ import { Inter } from "next/font/google";
+  import Topbar from "@/components/topbar/topbar";
 import NavBar from "@/components/navbar/navbar";
  import 'animate.css';
 import Footer from "@/components/footer/footer";
-import Act from "@/components/act/actualites";
+import ActDetail from "@/components/actualites_detail/actualites_detail";
 import Breadcumb from "@/components/breadcrumb/breadcumb";
-   
+    
 const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
-  const contact="Société de Batiment, Travaux  Publics et Hydrauliques";
-  const image="url('actualites.avif')";
+    const contact="Société de Batiment, Travaux  Publics et Hydrauliques";
+    const image="url('actualites.avif')";
    return (
     <>
       <Head>
@@ -29,10 +27,10 @@ export default function Home() {
 
       </Head>
       <Topbar/>
-      <NavBar/>   
+      <NavBar/>
       <Breadcumb name={contact} image={image}/>
-     <Act/>
-       <Footer/>
+      <ActDetail/>
+        <Footer/>
     </>
   );
 }

@@ -54,7 +54,7 @@ const Topbar=()=> {
       trigger="mouseenter"
       arrow={true}
       animation="fade"
-    >    <a className="btn btn-sm-square rounded-circle bg-white text-primary me-1" href=""><FaFacebookF />
+    >    <a className="btn btn-sm-square rounded-circle bg-white text-primary me-1" target="_blank" href="https://www.facebook.com/btph.hasnaoui/"><FaFacebookF />
     </a></Tooltip>
                     <Tooltip
       title="Tewitter"
@@ -70,7 +70,7 @@ const Topbar=()=> {
       trigger="mouseenter"
       arrow={true}
       animation="fade"
-    >    <a className="btn btn-sm-square rounded-circle bg-white text-primary me-1" href=""><BsLinkedin />
+    >    <a className="btn btn-sm-square rounded-circle bg-white text-primary me-1"target="_blank" href="https://www.linkedin.com/company/btph-hasnaoui-spa/"><BsLinkedin />
     </a></Tooltip>
                      <Tooltip
       title="Instegram"

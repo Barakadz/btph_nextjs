@@ -10,6 +10,8 @@ import '../components/actualites/actualites.css';
 import '../components/project/project.css';
 import '../components/project_rel/project_rel.css';
 import '../components/projectdetail/projectdetail.css';
+import '../components/emploi/emploi.css';
+import '../components/candidature/candidature.css';
 
 import { useEffect } from "react";
 

@@ -42,16 +42,19 @@ const NavBar = () => {
                                 <li className="nav-item"><Link legacyBehavior href="/project_rel"><a className={router.pathname === '/project_rel' ? 'dropdown-item' : 'dropdown-item'} aria-current="page">Projets réalisés</a></Link></li>
                             </div>
                         </div>
-                        <div className="nav-item"><Link legacyBehavior href="/actualite"><a className={router.pathname === '/actualite' ? 'nav-link active' : 'nav-link'} aria-current="page">Actualités</a></Link></div>
+                        <div className="nav-item"><Link legacyBehavior href="/actualite"><a className={router.pathname === '/actualite'  ? 'nav-link active' : 'nav-link'} aria-current="page">Actualités</a></Link></div>
                         <div className="nav-item dropdown">
-                            <a href="#" className="nav-link dropdown-toggle" data-bs-toggle="dropdown" data-i18n="Services">Carrières </a>
+                            <li className="nav-item"><Link legacyBehavior href="#"><a className=  'nav-link dropdown-toggle'  data-bs-toggle="dropdown" aria-current="page">Carrières</a></Link></li>
                             <div className="dropdown-menu rounded-0 m-0">
-                                <a className="dropdown-item" href="/emplois">Offres d'emploi</a>
-                                <a className="dropdown-item" href="/candidature">Candidature spontanée</a>
-                                <a className="dropdown-item" href="/stage">Demande de stage</a>
-                                <a className="dropdown-item" href="/users">Admin</a>
+                                <li className="nav-item"><Link legacyBehavior href="/emplois"><a className={router.pathname === '/emplois' ? 'dropdown-item' : 'dropdown-item'} aria-current="page">Offres d'emploi</a></Link></li>
+                                <li className="nav-item"><Link legacyBehavior href="/candidature"><a className={router.pathname === '/candidature' ? 'dropdown-item' : 'dropdown-item'} aria-current="page">Candidature spontanée</a></Link></li>
+                                <li className="nav-item"><Link legacyBehavior href="/stage"><a className={router.pathname === '/stage' ? 'dropdown-item' : 'dropdown-item'} aria-current="page">Demande de stage</a></Link></li>
+
                             </div>
                         </div>
+                        
+                        
+                    
                         <li className="nav-item"><Link legacyBehavior href="/contact"><a className={router.pathname === '/contact' ? 'nav-link active' : 'nav-link'} aria-current="page">Contact</a></Link></li>
                     </div>
                     <a href="#" className="btn btn-secondary rounded-0 py-4 px-lg-5 d-none d-lg-block">Catalogue<i className="fa fa-arrow-right ms-3"></i></a>
